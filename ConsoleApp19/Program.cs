@@ -98,18 +98,18 @@ class Student
             this.age = age;
             this.grades = grades;
         }
-
        public void AddGrade()
         {
         }
-
         public int GetAverageGrade()
         {
             int sum = 0;
+
          for(int i = 0; i < grades.Count; i++)
             {
                 sum += grades[i];
             }
+
          return sum/grades.Count;
         }
 
